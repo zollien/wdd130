@@ -1,0 +1,59 @@
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    display: block; 
+    padding: 20px;
+}
+h1, h2, h2 {
+    color: bluesteel;
+}
+main{
+    max-width:840px;
+}
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2); /*1*/
+    padding:1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 50px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 1px;
+    box-shadow: 0 0 30px gray;
+}
+img {
+    width: 2rem;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+P {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+.box {margin: 1rem;
+    padding: 1rem;
+    border: 2px solid steelblue;
+    background-color: gray;
+    color:#000;
+    width: 10rem;}
