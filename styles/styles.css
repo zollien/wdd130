@@ -1,0 +1,25 @@
+/*USE AMERICAN SPELLINGS*/
+
+/*navigation bar*/
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+/* anchor elements - child of nav */
+nav a {
+  color: white;
+  display: black;
+  padding: 20px;
+}
+/* headings */
+h1 {color: steelblue;}
+/*images*/
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+/*paragraphs*/
+p {padding: 10px;}
