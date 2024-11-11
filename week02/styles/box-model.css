@@ -1,0 +1,32 @@
+
+/*callout class in main for div styling */
+.callout {
+    max-width: 400px;
+    margin: 1rem;
+    border: 1px solid rgb(252, 250, 250);
+    padding: 1rem;
+    background-color: #224a85;
+    color: #ffffff;
+}
+/* image style */
+.callout img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border: 4px solid white;
+    width: 125px;
+    height: auto;
+}
+/* block of the quotation*/
+blockquote {
+    margin: 0;
+}
+/* citation reference at bottom */
+cite {
+    display: block;
+    border-top: 1px dotted white;
+    padding-top: 0;
+    text-align: right;
+    font-size: smaller;
+}
+
+/* border top right bottom left */
