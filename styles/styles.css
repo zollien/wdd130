@@ -18,15 +18,19 @@ h1 {
   color: #226aa6;
 }
 
-/*images*/
+/*page layout*/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 header,
-main,
 footer {
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/*images*/
 main img {
   width: 100px;
   height: auto;
