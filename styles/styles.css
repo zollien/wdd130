@@ -7,7 +7,6 @@
   --border: 1px solid #0e2d47;
 }
 
-
 /*navigation bar*/
 nav {
   background-color: var(--heading-background-color);
@@ -54,7 +53,6 @@ main img {
 p {
   padding: var(--padding);
 }
-
 
 /*aside*/
 aside {
