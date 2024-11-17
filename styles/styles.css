@@ -1,7 +1,7 @@
 /*USE AMERICAN SPELLINGS*/
 :root {
-  --heading-background-color: #226aa6;
-  --heading-text-color: #f3f4f7;
+  --heading-background-color: #ddd9d9;
+  --heading-text-color: #226aa6;
   --heading-font: "Montserrat", Helvetica, sans-serif;
   --padding: 2rem #f3f4f7;
   --border: 1px solid #0e2d47;
@@ -16,14 +16,14 @@ nav {
 
 /* anchor elements - child of nav */
 nav a {
-  color: white;
+  color: var(--heading-text-color);
   background-color: var(--heading-background-color);
   padding: var(--padding);
 }
 
 /* headings */
 h1 {
-  color: #226aa6;
+  color: var(--heading-text-color);
 }
 
 /*page layout*/
@@ -44,7 +44,7 @@ main img {
   height: auto;
   border: 0.5em solid var(--heading-background-color);
   padding: var(--padding);
-  box-shadow: 0 0 10px #ddd9d9;
+  box-shadow: 0 0 10px var(--border);
   color: #000
 }
 
@@ -59,9 +59,9 @@ aside {
   width: 20em;
   padding: var(--padding);
   margin: 1em;
-  border: 1em solid #ddd9d9;
-  background-color: #eee;
-  color: var(--heading-background-color);
+  border: 1em solid var(--border);
+  background-color: var(--heading-background-color);
+  color: var(--heading-text-color);
   text-align: center;
 }
 
@@ -72,6 +72,6 @@ aside img {
 
 footer {
   margin-top: 1em;
-  border-top: 1px solid #000;
+  border-top: 2px solid var(--border);
   text-align: center;
 }
