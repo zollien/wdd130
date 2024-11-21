@@ -51,7 +51,7 @@ main img {
 
 /*paragraphs*/
 p {
-  padding: var(--padding);
+  padding: 1px;
 }
 
 /*aside*/
