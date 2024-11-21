@@ -1,4 +1,4 @@
-/*fonts*/
+/*fonts complete*/
 .acme-regular {
     font-family: "Acme", sans-serif;
     font-weight: 400;
@@ -23,6 +23,54 @@
     font-style: normal;
 }
 
+/*needed to be completed W3 task*/
+
 /*images*/
 
 /*logo*/
+
+/*styles*/
+
+
+/*UNUSED CSS*/
+
+/*universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*list box in main*/
+.ul .box {}
+
+/*headings*/
+h1 {
+    font: acme
+        /*headingcolor: font acme, color #271712 licorice, background color universal #82C0CC50*/
+        background-color: #ffffff;
+    text-color: #271712;
+}
+
+h2,
+h3 {}
+
+h4,
+h5,
+h6 {}
+
+/*main image*/
+main img {
+    float: right;
+}
+
+/*aside*/
+aside {
+    position: relative;
+    background-color: #82C0CC
+}
+
+/*aside h2*/
+aside h2 {
+    font: acme color: C3510A burnt orange
+}
