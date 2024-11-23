@@ -6,6 +6,7 @@
 }
 
 /*fonts complete*/
+
 .acme-regular {
     font-family: "Acme", sans-serif;
     font-weight: 400;
@@ -49,6 +50,15 @@ h3 {
     font-size: 20px;
 }
 
+section {
+    width: 75vw;
+    margin: 1rem auto;
+    background-color: #C3510A20;
+    padding: 5px;
+    border: 5px solid #C3510A;
+}
+}
+
 /*aside*/
 aside {
     position: relative;
@@ -71,12 +81,12 @@ aside h3 {
 
 /*list box in main*/
 .ul .box {
-    background-color: #C3510A50;
+    background-color: #C3510A20;
     border-color: #C3510A;
 }
 
 .box {
-    background-color: #82C0CC50;
+    background-color: #82C0CC20;
     border-color: #82C0CC;
 }
 
@@ -85,7 +95,7 @@ aside h3 {
 .herodiv {
     margin: 10px auto;
     position: absolute;
-    background-color: #C3510A50;
+    background-color: #C3510A20;
     clear: both;
     /* ? */
 }
@@ -109,6 +119,8 @@ p {
     font-size: 16px;
     text-align: justify;
     width: 1000px;
+    margin: auto;
+    boarder: ;
 }
 
 footer {
@@ -117,8 +129,7 @@ footer {
     margin: 1rem;
     padding: 0.5rem;
     background-color: #16697A;
-    font-family: "Roboto", serif;
-    font-weight: 400;
+    font-family: "Acme", sans-serif;
     font-style: normal;
     border-top: 1px solid #0000;
     padding-top: 5px;
