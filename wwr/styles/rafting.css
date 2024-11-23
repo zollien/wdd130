@@ -32,21 +32,18 @@
 
 /*headers*/
 h1 {
-    font: acme-regular;
     font-family: "Acme", sans-serif;
     color: #C3510A;
     font-size: 60px;
 }
 
 h2 {
-    font: acme-regular;
     font-family: "Acme", sans-serif;
     color: #271712;
     font-size: 40px;
 }
 
 h3 {
-    font: acme-regular;
     font-family: "Acme", sans-serif;
     color: #C3510A;
     font-size: 20px;
