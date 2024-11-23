@@ -36,12 +36,15 @@ h1 {
     font-family: "Acme", sans-serif;
     color: #C3510A;
     font-size: 60px;
+    padding: 0 0 10px 10px;
+    text-align: left;
 }
 
 h2 {
     font-family: "Acme", sans-serif;
     color: #271712;
     font-size: 40px;
+    text-align: left;
 }
 
 h3 {
@@ -51,7 +54,6 @@ h3 {
 }
 
 section {
-
     margin: 1rem auto;
     background-color: #C3510A20;
     padding: 5px;
@@ -95,13 +97,10 @@ aside h3 {
 
 /*needed to be completed W3 task*/
 /*div images*/
-.herodiv {
-    margin: 10px auto;
-    position: absolute;
-    background-color: #C3510A20;
-
-    clear: both;
-    /* ? */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .herodiv img {
