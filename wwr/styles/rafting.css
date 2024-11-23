@@ -51,12 +51,11 @@ h3 {
 }
 
 section {
-    width: 75vw;
+
     margin: 1rem auto;
     background-color: #C3510A20;
     padding: 5px;
     border: 5px solid #C3510A;
-}
 }
 
 /*aside*/
@@ -85,9 +84,13 @@ aside h3 {
     border-color: #C3510A;
 }
 
-.box {
+.box img {
     background-color: #82C0CC20;
     border-color: #82C0CC;
+    float: right;
+    padding: 0px;
+    margin: 0 0 10px 10px;
+    position: relative;
 }
 
 /*needed to be completed W3 task*/
@@ -96,6 +99,7 @@ aside h3 {
     margin: 10px auto;
     position: absolute;
     background-color: #C3510A20;
+
     clear: both;
     /* ? */
 }
@@ -115,7 +119,6 @@ p {
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
-    color: #271712;
     font-size: 16px;
     text-align: justify;
     width: 1000px;
