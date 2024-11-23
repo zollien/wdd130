@@ -1,0 +1,133 @@
+CSS for DRY OAR WEBSITE
+/*USE AMERICAN SPELLINGS*/
+
+/*universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*list box in main*/
+.ul .box {}
+
+/*headings*/
+h1 {
+    font: acme
+        /*headingcolor: font acme, color #271712 licorice, background color universal #82C0CC50*/
+        background-color: #ffffff;
+    text-color: #271712;
+}
+
+h2,
+h3 {}
+
+h4,
+h5,
+h6 {}
+
+/*main image*/
+main img {
+    float: right;
+}
+
+/*aside*/
+aside {
+    position: relative;
+    background-color: #82C0CC
+}
+
+/*aside h2*/
+aside h2 {
+    font: acme color: C3510A burnt orange
+}
+
+
+
+
+
+
+
+
+
+
+/*root to link all headings*/
+:root {
+    --heading-background-color: #ddd9d9;
+    --heading-text-color: #226aa6 opacity: 20%?;
+    --heading-font: "Montserrat", Helvetica, sans-serif;
+    --heading-background-color: #ddd9d9;
+    --heading-text-color: #226aa6;
+    --heading-font: "Montserrat", Helvetica, sans-serif;
+    --padding: 2rem #f3f4f7;
+    --border: 1px solid #0e2d47;
+}
+
+/*navigation bar*/
+nav {
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
+}
+
+/* anchor elements - child of nav */
+nav a {
+    color: var(--heading-text-color);
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
+}
+
+/* headings */
+h1 {
+    color: var(--heading-text-color);
+}
+
+/*page layout*/
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--heading-text-color)
+}
+
+header,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--heading-text-color)
+}
+
+/*images*/
+main img {
+    width: 100px;
+    height: auto;
+    border: 0.5em solid var(--heading-background-color);
+    padding: var(--padding);
+    box-shadow: 0 0 10px var(--border);
+    color: var(--heading-text-color)
+}
+
+/*paragraphs*/
+p {
+    padding: 0;
+}
+
+/*aside*/
+aside {
+    width: 20em;
+    padding: var(--padding);
+    margin: 1em;
+    border: 1em solid var(--border);
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid var(--border);
+    text-align: center;
+}
