@@ -1,3 +1,10 @@
+/*universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*fonts complete*/
 .acme-regular {
     font-family: "Acme", sans-serif;
@@ -23,7 +30,7 @@
     font-style: normal;
 }
 
-/*needed to be completed W3 task*/
+/*headers*/
 h1 {
     font: acme-regular;
     font-family: "Acme", sans-serif;
@@ -31,61 +38,92 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font: acme-regular;
+    font-family: "Acme", sans-serif;
+    color: #271712;
+    font-size: 40px;
+}
+
+h3 {
+    font: acme-regular;
+    font-family: "Acme", sans-serif;
+    color: #C3510A;
+    font-size: 20px;
+}
+
+/*aside*/
+aside {
+    position: relative;
+    background-color: #82C0CC50
+}
+
+/*aside h2*/
+aside h2 {
+    font-family: "Acme", sans-serif;
+    color: #C3510A;
+    font-size: 40px;
+}
+
+/*aside h3*/
+aside h3 {
+    font-family: "Acme", sans-serif;
+    color: #271712;
+    font-size: 20px;
+}
+
+/*list box in main*/
+.ul .box {
+    background-color: #C3510A50;
+    border-color: #C3510A;
+}
+
+.box {
+    background-color: #82C0CC50;
+    border-color: #82C0CC;
+}
+
+/*needed to be completed W3 task*/
 /*div images*/
 .herodiv {
     margin: 10px auto;
     position: absolute;
+    background-color: #C3510A50;
+    clear: both;
+    /* ? */
 }
 
 .herodiv img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
 
-    /*logo*/
+/*main image*/
+main img {
+    float: right;
+}
 
-    /*styles*/
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #271712;
+    font-size: 16px;
+    text-align: justify;
+    width: 1000px;
+}
 
-
-    /*UNUSED CSS*/
-
-    /*universal*/
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /*list box in main*/
-    .ul .box {}
-
-    /*headings*/
-    h1 {
-        font: acme
-            /*headingcolor: font acme, color #271712 licorice, background color universal #82C0CC50*/
-            background-color: #ffffff;
-        text-color: #271712;
-    }
-
-    h2,
-    h3 {}
-
-    h4,
-    h5,
-    h6 {}
-
-    /*main image*/
-    main img {
-        float: right;
-    }
-
-    /*aside*/
-    aside {
-        position: relative;
-        background-color: #82C0CC
-    }
-
-    /*aside h2*/
-    aside h2 {
-        font: acme color: C3510A burnt orange
-    }
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #16697A;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-top: 1px solid #0000;
+    padding-top: 5px;
+    clear: both;
+}
