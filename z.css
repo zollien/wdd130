@@ -1,5 +1,363 @@
+/*universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*fonts complete*/
+
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*HEADER*/
+/*Navigation*/
+nav {
+    background-color: #0000;
+    padding: 10px;
+}
+
+nav a {
+    color: #16697A;
+    display: block;
+    padding: 20px;
+    font-family: "Acme", sans-serif;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: #82C0CC50;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #82C0CC;
+}
+
+/*MAIN*/
+/*headers*/
+h1 {
+    font-family: "Acme", sans-serif;
+    color: #C3510A;
+    font-size: 60px;
+    padding: 0 0 10px 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Acme", sans-serif;
+    color: #16697A;
+    font-size: 40px;
+    text-align: left;
+}
+
+h3 {
+    font-family: "Acme", sans-serif;
+    color: #271712;
+    font-size: 20px;
+
+}
+
+/*BOX MODEL CODE ADDED HERE*/
+
+/*callout class in main for div styling */
+.callout {
+    max-width: auto;
+    height: 200px;
+    margin: 0 0 5px 0;
+    border: 1px solid #82C0CC;
+    padding: 1rem;
+    background-color: #16697A;
+    color: #ffffff;
+}
+
+/* image style in box on right */
+.callout img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border: 4px solid white;
+    max-width: 180px;
+    height: auto;
+}
+
+/* block of the quotation*/
+blockquote {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    float: left;
+    margin: 0 0 1rem 1rem;
+    width: 800px;
+    text-align: justify;
+
+}
+
+/* citation reference */
+cite {
+    display: block;
+    padding-top: 0;
+    text-align: right;
+    font-size: smaller;
+    position: absolute;
+}
+
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+/*divs and sections*/
+div {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #0000;
+}
+
+
+
+
+
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), (rgba(0, 0, 0, 0.5)), url("river-narrow.jpeg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #16697A;
+    border: 2px #16697A50;
+}
+
+.hero img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border: 2px solid #0000;
+    width: 100%;
+    height: auto;
+}
+
+/*image*/
+img {
+    float: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 20px;
+    right: 20px;
+}
+
+img .left {
+    float: left;
+    width: 150px;
+    height: auto;
+    border: 1px solid #82C0CC;
+    padding: 2px;
+    box-shadow: 1px #82C0CC50
+}
+
+img .right {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid #82C0CC;
+    padding: 2px;
+    box-shadow: 1px #82C0CC50;
+}
+
+
+
+
+/*list box in main*/
+.ul .box {
+    background-color: #C3510A20;
+    border-color: #C3510A;
+}
+
+.box img {
+    background-color: #82C0CC20;
+    border-color: #82C0CC;
+
+    padding: 0px;
+    margin: 0 0 10px 10px;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 1rem;
+    font-family: "Acme", sans-serif;
+    font-style: normal;
+    border: 1px solid #0000;
+    padding: 10px;
+    background-color: #0000;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
 CSS for DRY OAR WEBSITE
 /*USE AMERICAN SPELLINGS*/
+
+/*divs and sections*/
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section {
+    margin: 1rem auto;
+    background-color: #C3510A20;
+    padding: 5px;
+    border: 5px solid #C3510A;
+}
+
+section a {
+    margin: 1rem auto;
+    background-color: #C3510A20;
+    padding: 5px;
+    border: 5px solid #C3510A;
+}
+
+/*aside*/
+aside {
+    position: relative;
+    background-color: #82C0CC50
+}
+
+/*aside h2*/
+aside h2 {
+    font-family: "Acme", sans-serif;
+    color: #C3510A;
+    font-size: 40px;
+}
+
+/*aside h3*/
+aside h3 {
+    font-family: "Acme", sans-serif;
+    color: #271712;
+    font-size: 20px;
+}
+
+/*list box in main*/
+.ul .box {
+    background-color: #C3510A20;
+    border-color: #C3510A;
+}
+
+.box img {
+    background-color: #82C0CC20;
+    border-color: #82C0CC;
+
+    padding: 0px;
+    margin: 0 0 10px 10px;
+    position: relative;
+}
+
+/*needed to be completed W3 task*/
+
+
+/*main image*/
+main img {
+    float: right;
+}
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #16697A;
+    font-family: "Acme", sans-serif;
+    font-style: normal;
+    border-top: 1px solid #0000;
+    padding-top: 5px;
+    clear: both;
+}
 
 /*universal*/
 * {
@@ -8,23 +366,7 @@ CSS for DRY OAR WEBSITE
     box-sizing: border-box;
 }
 
-/*list box in main*/
-.ul .box {}
 
-/*headings*/
-h1 {
-    font: acme
-        /*headingcolor: font acme, color #271712 licorice, background color universal #82C0CC50*/
-        background-color: #ffffff;
-    text-color: #271712;
-}
-
-h2,
-h3 {}
-
-h4,
-h5,
-h6 {}
 
 /*main image*/
 main img {
@@ -36,19 +378,6 @@ aside {
     position: relative;
     background-color: #82C0CC
 }
-
-/*aside h2*/
-aside h2 {
-    font: acme color: C3510A burnt orange
-}
-
-
-
-
-
-
-
-
 
 
 /*root to link all headings*/
@@ -130,4 +459,204 @@ footer {
     margin-top: 1em;
     border-top: 1px solid var(--border);
     text-align: center;
+}
+
+
+
+/*FROM LIVE W3 css*/
+
+/* citation reference at bottom */
+cite {
+    display: block;
+    border-top: 1px solid white;
+    padding-top: 0;
+    text-align: right;
+    font-size: smaller;
+}
+
+/*divs and sections*/
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section {
+    margin: 1rem auto;
+    background-color: #C3510A20;
+    padding: 5px;
+    border: 5px solid #C3510A;
+}
+
+section a {
+    margin: 1rem auto;
+    background-color: #C3510A20;
+    padding: 5px;
+    border: 5px solid #C3510A;
+}
+
+/*aside*/
+aside {
+    position: relative;
+    background-color: #82C0CC50
+}
+
+/*aside h2*/
+aside h2 {
+    font-family: "Acme", sans-serif;
+    color: #C3510A;
+    font-size: 40px;
+}
+
+/*aside h3*/
+aside h3 {
+    font-family: "Acme", sans-serif;
+    color: #271712;
+    font-size: 20px;
+}
+
+/*list box in main*/
+.ul .box {
+    background-color: #C3510A20;
+    border-color: #C3510A;
+}
+
+.box img {
+    background-color: #82C0CC20;
+    border-color: #82C0CC;
+
+    padding: 0px;
+    margin: 0 0 10px 10px;
+    position: relative;
+}
+
+/*needed to be completed W3 task*/
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #16697A;
+    font-family: "Acme", sans-serif;
+    font-style: normal;
+    border-top: 1px solid #0000;
+    padding-top: 5px;
+    clear: both;
+}
+
+/*FROM LIVE W3 css*/
+section {
+    margin: 1rem auto;
+    background-color: #C3510A20;
+    padding: 5px;
+    border: 5px solid #C3510A;
+}
+
+section a {
+    margin: 1rem auto;
+    background-color: #C3510A20;
+    padding: 5px;
+    border: 5px solid #C3510A;
+}
+
+/*aside*/
+aside {
+    position: relative;
+    background-color: #82C0CC50
+}
+
+/*aside h2*/
+aside h2 {
+    font-family: "Acme", sans-serif;
+    color: #C3510A;
+    font-size: 40px;
+}
+
+/*aside h3*/
+aside h3 {
+    font-family: "Acme", sans-serif;
+    color: #271712;
+    font-size: 20px;
+}
+
+/*list box in main*/
+.ul .box {
+    background-color: #C3510A20;
+    border-color: #C3510A;
+}
+
+.box img {
+    background-color: #82C0CC20;
+    border-color: #82C0CC;
+
+    padding: 0px;
+    margin: 0 0 10px 10px;
+    position: relative;
+}
+
+/*needed to be completed W3 task*/
+
+
+/*image*/
+img {
+    float: none;
+}
+
+img left {
+    float: left;
+    width: 150px;
+    height: auto;
+    border: 1px solid #82C0CC;
+    padding: 2px;
+    box-shadow: 1px #82C0CC50
+}
+
+img right {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid #82C0CC;
+    padding: 2px;
+    box-shadow: 1px #82C0CC50
+}
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+blockquote {
+    margin: 0;
 }
