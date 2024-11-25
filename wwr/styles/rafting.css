@@ -36,7 +36,7 @@
 nav {
     background-color: #0000;
     padding: 10px;
-    max-width: static;
+    max-width: 1000px;
 }
 
 nav a {
