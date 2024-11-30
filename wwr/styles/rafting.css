@@ -1,12 +1,29 @@
+/*root to link all headings*/
+:root {
+    --navigation-background-color: #ffffff;
+    --heading-text-color: #16697A;
+    --heading-color: #C3510A;
+    --heading-font: "Acme", sans-serif;
+    --heading-alignment: center;
+    --padding: 1rem #ffffff;
+    --padding-left: 5px;
+    --margin-left: 0px;
+    --border: 1px solid #C3510A;
+    --section-background-color: #C3510A20;
+    --background-color: #82C0CC30;
+    --text-align: center;
+    --text-color: #271712;
+    --text-font: "Roboto", serif;
+}
+
 /*universal*/
 * {
-    margin: 0;
-    padding: 0;
+    margin: var(--margin-left);
+    padding: var(--padding-left);
     box-sizing: border-box;
 }
 
 /*fonts complete*/
-
 .acme-regular {
     font-family: "Acme", sans-serif;
     font-weight: 400;
@@ -34,23 +51,22 @@
 /*HEADER*/
 /*Navigation*/
 nav {
-    background-color: #0000;
-    padding: 10px;
+    background-color: var(--navigation-background-color);
+    padding: var(--padding);
     max-width: 1000px;
 }
 
 nav a {
     color: #16697A;
     display: block;
-    padding: 20px;
-    font-family: "Acme", sans-serif;
-    font-style: normal;
+    padding: var(--padding);
+    font-family: var(--heading-font);
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: var(--margin-left);
+    padding: var(--padding);
     overflow: hidden;
 }
 
@@ -73,74 +89,60 @@ li a:hover {
 /*MAIN*/
 /*headers*/
 h1 {
-    font-family: "Acme", sans-serif;
-    color: #16697A;
+    font-family: var(--heading-font);
+    color: var(--heading-text-color);
     font-size: 60px;
-    padding: 10px 0 10px 10px;
-    text-align: center;
-    margin: 1rem;
+    padding: var(--padding);
+    text-align: var(--heading-alignment);
+    margin: var(--margin-left);
 }
 
 h2 {
-    font-family: "Acme", sans-serif;
-    color: #16697A;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
     font-size: 40px;
-    text-align: left;
+    text-align: var(--heading-alignment);
     margin: 1rem;
+    padding: var(--padding);
 }
 
 h3 {
-    font-family: "Acme", sans-serif;
-    color: #16697A;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
     font-size: 20px;
 
 }
 
-p {
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    text-align: justify;
-    width: 1000px;
-    margin: auto;
-    padding: 15px;
-}
-
-/*divs and sections*/
-div {
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: #0000;
-    padding: 0 0 10px 0;
-}
-
+/* */
 .hero {
     display: block;
     width: 100%;
     height: auto;
-    background-color: #82C0CC20;
-    border: 2px #16697A50;
-    padding: 0 0 10px 0;
-    position: absolute;
+    padding: var(--padding);
+    position: relative;
+    float: right;
 }
 
 .hero-image {
-    opacity: 1;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: absolute;
+    object-fit: cover;
 }
 
 article {
     display: block;
+    position: relative;
     width: auto;
     height: auto;
-    background-color: #82C0CC20;
+    padding: var(--padding);
+}
+
+.section {
+    position: absolute;
+    background-color: var(--section-background-color);
 }
 
 /*footer*/
@@ -151,18 +153,8 @@ footer {
     width: 100%;
     background-color: #ffffff;
     text-align: left;
-    font-family: "Acme", sans-serif;
+    font-family: var(--heading-font);
     font-style: normal;
     margin: 1rem;
-}
-
-footer img {
-    float: right;
-    margin: 0 0 1rem 1rem;
-    border: 1px solid white;
-    max-width: 40px;
-    height: auto;
-    opacity: 0.8;
-    position: relative;
-    padding: 10px;
+    text-decoration: none;
 }
