@@ -25,6 +25,10 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
 /*fonts complete*/
 .acme-regular {
     font-family: "Acme", sans-serif;
@@ -87,6 +91,7 @@ li a {
 li a:hover {
     background-color: #82C0CC;
 }
+
 
 /*MAIN*/
 /*headers*/
@@ -186,10 +191,4 @@ footer {
     font-family: var(--heading-font);
     font-style: normal;
     margin: 1rem;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: none;
-    /*how to remove decor when none requested?*/
 }
