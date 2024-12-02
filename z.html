@@ -6,10 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Dry Oar Whitewater Rafting</title>
-    <meta name="description" content="About Us Page - Dry Oar Whitewater Rafting">
+    <meta name="description" content="About Us - Dry Oar Rafting">
     <meta name="author" content="Zollien Dove">
-    <link rel="stylesheet" href="z.css">
-
+    <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
@@ -18,10 +17,13 @@
 
 <body>
     <header><!--header navigation complete-->
+        <!--The header contains a working logo image and a navigation element.-->
+        <!--The nav element contains four (4) links to the four pages of the project. They will not be working yet.-->
         <nav>
             <div>
                 <ul>
-                    <li><img src="images/dryoarlogo.png" alt="Dry Oar Whitewater Rafting Logo" width="200" /></li>
+                    <li><img class="img" src="images/dryoarlogo.png" alt="Dry Oar Whitewater Rafting Logo" width="200">
+                    </li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="trips.html">Trips</a></li>
@@ -30,123 +32,57 @@
             </div>
         </nav>
     </header>
-    <main><!-- -->
-        <h1>DRY OAR Whitewater Rafting</h1>
+    <main>
+        <!-- The main element exists and contains a div with a class of hero and two (2) sections.-->
+        <!--MAIN: The hero div element contains an image, an h1 heading with the title of the rafting company, an article element with an img and paragraph.-->
+        <div class="hero">
+            <img class="hero-image" src="images/salmon-kayak-banner1.jpeg" alt="Salmon Kayak.">
+            <h1>DRY OAR Whitewater Rafting</h1>
 
-        <!--BOXMODEL CODE HERE -->
-        <!--div is the box for text and image -->
-        <div class="callout">
-
-            <img src="images/elves-chasm-landscape.jpeg" alt="Elves Chasm." />
-            <!-- text inside div -->
-            <blockquote>BLOCK1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam commodi quis dignissimos
-                quas qui ducimus optio architecto aperiam in eveniet, voluptates quia quaerat dolorum cum. Lorem ipsum
-                dolor sit, amet consectetur adipisicing elit. Totam commodi quis dignissimos quas qui ducimus optio
-                architecto aperiam in eveniet, voluptates quia quaerat dolorum cum.</blockquote>
-
-            <!-- reference at bottom 
-            <cite>Book a trip today!</cite> 
-            -->
-            <p></p>
+            <article class="hero-text"><!--ARTICLE -->
+                <h3>ARTICLE PARAGRAPH 1 in hero div</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+                    laboriosam quibusdam saepe, aliquam esse odit est voluptate cumque blanditiis iusto nesciunt,
+                    deleniti placeat ad non impedit eaque tempora aperiam delectus quidem. Eveniet cupiditate
+                    placeat dolorem consequatur laboriosam quisquam sit neque eum, doloremque provident voluptates quam
+                    eos debitis magni dicta sint.</p>
+            </article>
         </div>
 
-
-
-
-
-
-        <div class="hero">
-            <section>
-                <img class="hero img" src="images/river-narrow.jpeg" alt="Narrow River.">
-                <!--BOXMODEL CODE HERE -->
-                <!--div is the box for text and image -->
-                <div class="callout">
-                    <img src="images/elves-chasm-landscape.jpeg" alt="Elves Chasm." />
-                    <!-- text inside div -->
-                    <blockquote>BLOCK2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam commodi quis
-                        dignissimos quas qui ducimus optio architecto aperiam in eveniet, voluptates quia quaerat
-                        dolorum cum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam commodi quis
-                        dignissimos quas qui ducimus optio architecto aperiam in eveniet, voluptates quia quaerat
-                        dolorum cum.</blockquote>
-
-                    <!-- reference at bottom 
-                        <cite>Book a trip today!</cite> 
-                        -->
-                    <p></p>
-                </div>
-            </section>
-
-            <div class="hero-image">
-                <section>
-                    <img class="hero img" src="images/river-narrow.jpeg" alt="Narrow River.">
-                    <!--BOXMODEL CODE HERE -->
-                    <!--div is the box for text and image -->
-                    <div class="callout">
-                        <img src="images/elves-chasm-landscape.jpeg" alt="Elves Chasm." />
-                        <!-- text inside div -->
-                        <blockquote>BLOCK3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam commodi quis
-                            dignissimos
-                            quas qui ducimus optio architecto aperiam in eveniet, voluptates quia quaerat dolorum cum.
-                            Lorem ipsum
-                            dolor sit, amet consectetur adipisicing elit. Totam commodi quis dignissimos quas qui
-                            ducimus optio
-                            architecto aperiam in eveniet, voluptates quia quaerat dolorum cum.</blockquote>
-
-                        <!-- reference at bottom 
-                        <cite>Book a trip today!</cite> 
-                        -->
-                        <p></p>
-                    </div>
-                </section>
-
-
-
-
-
-
-
-
-
-                <section>
-                    <h2>History</h2>
-                    <blockquote>
-                        <p>paragraph2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat accusantium
-                            vitae eligendi labore. Quam perspiciatis labore amet numquam rerum?</p>
-                    </blockquote>
-                </section>
-                <section>
-                    <h2>Adventure Awaits You</h2>
-                    <img src="images/rafting14_600.jpeg" alt="River Narrow image" width="850" height="300">
-                    <img src="images/rafting16_1024.jpeg" alt="River Narrow image">
-                    <img src="images/rafting18_600.jpeg" alt="River Narrow image">
-                    <img src="images/rafting20_600.jpeg" alt="River Narrow image">
-                    <img src="images/rafting22_600.jpeg" alt="River Narrow image" width="850" height="300">
-                    <img src="images/rafting31_600.jpeg" alt="River Narrow image">
-                    <img src="images/rafting3_1024.jpeg" alt="River Narrow image">
-                    <img src="images/rafting59_600.jpg" alt="River Narrow image">
-                    <img src="images/rafting60_1024.jpeg" alt="River Narrow image">
-                    <img src="images/rafting8_600.jpeg" alt="River Narrow image">
-
-                </section>
-            </div>
-            <aside class="box">
-                <h2>H2</h2>
-                <img src="images/river-narrow.jpeg" alt="Narrow River." width="200" />
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis ullam sint officiis architecto
-                    perferendis nobis unde numquam consectetur aperiam? Veniam.
-                </p>
-            </aside>
+        <section><!-- Section 1 - History -->
+            <h2>History</h2>
+            <article><!--ARTICLE -->
+                <p>ARTICLE PARAGRAPH HISTORY 1 Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit.Commodi laboriosam quibusda saepe, aliquam esse odit est voluptate cumque blanditiis iusto
+                    nesciunt, deleniti placeat ad non impedit eaque tempora aperiam delectus quidem. Eveniet
+                    cupiditate placeat dolorem consequatur laboriosam quisquam sit neque eum, doloremque provident
+                    voluptates quam eos debitis magni dicta sint.</p>
+            </article>
+        </section>
+        <section><!-- Section 2 - Adventure Awaits You-->
+            <h2>Adventure Awaits You</h2>
+            <img src="images/rafting14_600.jpeg" alt="Rafting 14 image">
+            <img src="images/rafting16_1024.jpeg" alt="Rafting16 image">
+            <img src="images/rafting60_1024.jpeg" alt="Rafting60 image">
+            <img src="images/rafting3_1024.jpeg" alt="Rafting3 image">
+            <img src="images/rafting18_600.jpeg" alt="Rafting 18 image">
+            <img src="images/rafting20_600.jpeg" alt="Rafting20 image">
+            <img src="images/rafting22_600.jpeg" alt="Rafting22  image">
+            <img src="images/rafting31_600.jpeg" alt="Rafting31-600 image">
+            <img src="images/rafting59_600.jpg" alt="Rafting59-600 image">
+            <img src="images/rafting8_600.jpeg" alt="Rafting8_600 image">
+        </section>
 
     </main>
-    <footer>Dry Oar Whitewater Rafting &copy; 2024
-
-        <ul>
-            <!--ul=untitled list with bullet points li=list items-->
-            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://linkedin.com" target="_blank">Linked In</a></li>
-            <li><a href="https://Instagram.com" target="_blank">Instgram</a></li>
-        </ul>
+    <footer>
+        <!--CSS: The image links for the social media icons do not have text-decoration.Do have links-->
+        <p>Dry Oar Whitewater Rafting &copy; 2024 Zollien Dove</p>
+        <a href="https://www.instagram.com/"><img src="images/2959748_instagram_photo_share_icon.png"
+                alt="Instagram instagram_icon"></a>
+        <a href="https://www.facebook.com/"><img src="images/211901_facebook_social_icon.png"
+                alt="Facebook facebook_icon"></a>
+        <a href="https://x.com"><img src="images/11053970_x_logo_twitter_new_brand_icon.png"
+                alt="X Twitter xtwitter_icon"></a>
     </footer>
 </body>
 <!-- last modified 23Nov24 at 22:38-->

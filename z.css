@@ -761,3 +761,7 @@ cite {
 
 
 }
+
+ul .img {
+    border-image: 100px #C3510A;
+}

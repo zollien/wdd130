@@ -1,0 +1,254 @@
+
+
+/*HEADER*/
+/*Navigation*/
+nav {
+    background-color: var(--navigation-background-color);
+    padding: var(--padding);
+    max-width: 1000px;
+}
+
+nav a {
+    color: #16697A;
+    display: block;
+    padding: var(--padding);
+    font-family: var(--heading-font);
+}
+
+ul {
+    list-style-type: none;
+    margin: var(--margin-left);
+    padding: var(--padding);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: #82C0CC50;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #82C0CC;
+}
+
+/*MAIN*/
+/*headers*/
+h1 {
+    font-family: var(--heading-font);
+    color: var(--heading-text-color);
+    font-size: 60px;
+    padding: var(--padding);
+    text-align: var(--heading-alignment);
+    margin: var(--margin-left);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--heading-text-color);
+    font-size: 40px;
+    text-align: var(--heading-alignment);
+    margin: 1rem;
+    padding: var(--padding);
+}
+
+h3 {
+    font-family: var(--heading-font);
+    color: #16697A;
+    font-size: 20px;
+
+}
+
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+/*divs and sections*/
+div {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+div .hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color);
+    padding: var(--padding);
+    position: relative;
+    float: right;
+}
+
+.hero-image {
+    opacity: .6;
+    width: auto;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    color: var(--text-color);
+}
+
+.section {
+    position: absolute;
+}
+
+article {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: var(--background-color);
+    padding: var(--padding);
+}
+
+.body {
+    font-family: var(--);
+}
+
+
+/*footer*/
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: left;
+    font-family: var(--heading-font);
+    font-style: normal;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+footer img {
+    float: center;
+    margin: var(--padding);
+    border: 1px solid white;
+    max-width: 50px;
+    height: auto;
+    opacity: 0.8;
+    position: relative;
+    padding: var(--padding);
+    text-decoration: none;
+}
+
+ul .img {
+    border-image: 100px #C3510A;
+}
+
+
+/*ALL CSS THAT WS IN RAFTING CSS*/
+p {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+/*divs and sections*/
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color);
+    padding: var(--padding);
+    position: relative;
+    float: right;
+}
+
+.hero-image {
+    opacity: .6;
+    width: auto;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    color: var(--text-color);
+}
+
+.section {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: var(--background-color);
+
+}
+
+.body {
+    font-family: var(--);
+}
+
+
+/*footer*/
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: left;
+    font-family: var(--heading-font);
+    font-style: normal;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+footer img {
+    float: center;
+    margin: var(--padding);
+    border: 1px solid white;
+    max-width: 50px;
+    height: auto;
+    opacity: 0.8;
+    position: relative;
+    padding: var(--padding);
+    text-decoration: none;
+}
+
+ul .img {
+    border-image: 100px #C3510A;
+}
