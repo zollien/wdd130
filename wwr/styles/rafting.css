@@ -1,9 +1,16 @@
 /*root to link all headings*/
 :root {
+    --primary-color: #16697A;
+    --secondary-color: #82C0CC;
+    --accent1-color: #C3510A;
+    --accent2-color: #271712;
+
+    --heading-font: "Acme", sans-serif;
+    --paragraph-font: "Roboto", sans-serif;
+
     --navigation-background-color: #ffffff;
     --heading-text-color: #16697A;
     --heading-color: #C3510A;
-    --heading-font: "Acme", sans-serif;
     --heading-alignment: center;
     --padding: 1rem #ffffff;
     --padding-left: 5px;
@@ -32,10 +39,12 @@ header,
 main,
 footer {
     max-width: 1100px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-
+body {
+    font-family: var(--paragraph-font);
+}
 
 
 /*HEADER*/
@@ -58,7 +67,6 @@ nav a {
     padding: var(--padding);
     font-family: var(--heading-font);
 }
-
 
 
 nav a {
@@ -100,6 +108,12 @@ h3 {
     font-size: 20px;
 }
 
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
 /* */
 .hero {
     position: relative;
@@ -137,6 +151,13 @@ h3 {
     background-color: #ffffff56;
 }
 
+.hero article p {
+    color: var(--accent2-color);
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 700;
+}
+
 .section {
     position: absolute;
     background-color: var(--section-background-color);
@@ -153,9 +174,24 @@ figure {
 /*footer*/
 footer {
     width: 100%;
-    background-color: #ffffff;
-    text-align: left;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    margin: 4em 0;
     font-family: var(--heading-font);
     font-style: normal;
-    margin-top: 10em;
+
+
+}
+
+.social {
+    grid-column: 3;
+    align-self: self-end;
+}
+
+.social img {
+    width: 3em;
 }

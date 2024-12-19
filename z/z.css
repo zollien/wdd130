@@ -765,3 +765,19 @@ cite {
 ul .img {
     border-image: 100px #C3510A;
 }
+
+ul {
+    list-style-type: none;
+    margin: var(--margin-left);
+    padding: var(--padding);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+.hero-text {
+    position: relative;
+    width: 50%;
+    margin: 10px;
+}
