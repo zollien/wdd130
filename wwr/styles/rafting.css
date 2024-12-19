@@ -13,7 +13,7 @@
     --background-color: #82C0CC30;
     --text-align: center;
     --text-color: #271712;
-    --text-font: "Roboto", serif;
+    --text-font: "Roboto", sans-serif;
 }
 
 /*universal*/
@@ -28,58 +28,40 @@ a {
     text-decoration: none;
 }
 
-/*fonts complete*/
-.acme-regular {
-    font-family: "Acme", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+header,
+main,
+footer {
+    max-width: 1100px;
+    margin: auto;
 }
 
-.roboto-thin {
-    font-family: "Roboto", serif;
-    font-weight: 100;
-    font-style: normal;
-}
 
-.roboto-regular {
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
-.roboto-bold {
-    font-family: "Roboto", serif;
-    font-weight: 700;
-    font-style: normal;
-}
 
 /*HEADER*/
 /*Navigation*/
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+}
+
 nav {
     background-color: var(--navigation-background-color);
     padding: var(--padding);
-    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
     color: #16697A;
-    display: block;
     padding: var(--padding);
     font-family: var(--heading-font);
 }
 
-ul {
-    list-style-type: none;
-    margin: var(--margin-left);
-    padding: var(--padding);
-    overflow: hidden;
-}
 
-li {
-    float: left;
-}
 
-li a {
+nav a {
     display: block;
     padding: 20px 30px;
     margin: 20px;
@@ -87,7 +69,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav a:hover {
     background-color: #82C0CC;
 }
 
@@ -116,54 +98,43 @@ h3 {
     font-family: var(--heading-font);
     color: var(--heading-color);
     font-size: 20px;
-
 }
 
 /* */
 .hero {
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: var(--padding);
     position: relative;
-    float: right;
-    background-color: var(--section-background-color);
-    font-family: var(--text-font);
-    font-style: normal;
 }
 
-.hero-image {
-    opacity: .4;
+.hero img {
     width: 100%;
     height: 100%;
-    position: absolute;
-    object-fit: cover;
 }
 
-.hero-img {
+.hero article img {
     float: right;
     margin: 10px;
     border: 4px solid white;
     width: 350px;
     height: auto;
-    position: relative;
-    clear: both;
 }
 
-.hero-text {
-    position: relative;
-    width: 50%;
-    margin: 10px;
-}
-
-article {
-    display: block;
-    position: relative;
-    width: auto;
-    height: auto;
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    right: 50px;
     padding: var(--padding);
     font-family: var(--text-font);
     font-style: normal;
+    background-color: #ffffff56;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff56;
 }
 
 .section {
@@ -181,13 +152,10 @@ figure {
 
 /*footer*/
 footer {
-    position: fixed;
-    left: 0px;
-    bottom: 0;
     width: 100%;
     background-color: #ffffff;
     text-align: left;
     font-family: var(--heading-font);
     font-style: normal;
-    margin: 1rem;
+    margin-top: 10em;
 }
