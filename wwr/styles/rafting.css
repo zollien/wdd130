@@ -225,26 +225,9 @@ footer {
 .social img {
     width: 3em;
 }
-
-/*Nav Div class="nav-grid*/
-.grid-container {
-    display: grid;
-    grid-template-columns: 3em;
-    grid-gap: 10px;
-    padding: 10px;
-}
-
-.nav-grid {
-    display: grid;
-    grid-template-columns: 3em;
-}
-
-.nav-grid img {
-    grid-column: 1;
-    align-self: self-end;
-}
-
-.nav-grid ul {
-    grid-column: 3;
-    align-self: self-end;
+iframe {
+    border: 0;
+    width: 300px;
+    height: 300px;
+    
 }

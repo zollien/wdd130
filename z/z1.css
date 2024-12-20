@@ -1,5 +1,3 @@
-
-
 /*HEADER*/
 /*Navigation*/
 nav {
@@ -33,6 +31,7 @@ li a {
     background-color: #82C0CC50;
     text-decoration: none;
 }
+
 li a:hover {
     background-color: #82C0CC;
 }
@@ -251,4 +250,33 @@ footer img {
 
 ul .img {
     border-image: 100px #C3510A;
+}
+
+
+
+
+
+/*CUT FROM RAFTING.CSS - FOR GRID LAYOUT???*/
+
+/*Nav Div class="nav-grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 3em;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.nav-grid {
+    display: grid;
+    grid-template-columns: 3em;
+}
+
+.nav-grid img {
+    grid-column: 1;
+    align-self: self-end;
+}
+
+.nav-grid ul {
+    grid-column: 3;
+    align-self: self-end;
 }
