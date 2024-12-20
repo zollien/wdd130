@@ -198,7 +198,7 @@ h6 {
 figure {
     font-family: var(--text-font);
     font-style: normal;
-    color: #C3510A;
+    color: #16697A;
 }
 
 /*footer*/
@@ -225,10 +225,12 @@ footer {
 .social img {
     width: 3em;
 }
-iframe { 
+
+iframe {
     width: 400px;
     height: 300px;
 }
+
 .map {
     border: 0;
     font-weight: 700;
@@ -236,28 +238,37 @@ iframe {
 
 .employees {
     width: 100%;
-    background-color: var(--section-background-color);
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     font-weight: 700;
 }
+
 .employees img {
     width: 16em;
     height: 21em;
 }
 
+.employees figure {
+    background-color: #ffffff56;
+}
+
 /*contact form button*/
 .button {
-    background-color: #C3510A;
+    background-color: #c3510a;
     border: 1px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+form {
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+
 }
