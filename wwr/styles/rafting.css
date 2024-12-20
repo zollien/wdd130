@@ -255,7 +255,7 @@ iframe {
 }
 
 /*contact form button*/
-.button {
+.submit {
     background-color: #c3510a;
     border: 1px;
     color: white;
@@ -270,5 +270,8 @@ iframe {
 form {
     font-family: var(--paragraph-font);
     font-size: 16px;
+}
 
+.location {
+    text-align: center;
 }
