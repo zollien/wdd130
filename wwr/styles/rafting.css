@@ -225,9 +225,26 @@ footer {
 .social img {
     width: 3em;
 }
-iframe {
-    border: 0;
-    width: 300px;
+iframe { 
+    width: 400px;
     height: 300px;
-    
 }
+.map {
+    border: 0;
+    font-weight: 700;
+}
+
+.employees {
+    width: 100%;
+    background-color: var(--section-background-color);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    font-weight: 700;
+}
+.employees img {
+    width: 16em;
+    height: 21em;
+}
+
