@@ -73,6 +73,8 @@
         <h3>Your Contact Details</h3>
         <p></p>
         <form action="/action_page.php">
+            <!-- <label>-->
+            <!-- type="text"-->
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br><br>
             <label for="email">Email Address:</label>
@@ -81,8 +83,12 @@
 
             <h3>Type of Inquiry</h3>
             <p></p>
+            <!-- form -->
             <form action="/action_page.php">
+
+                <!-- type="radio"-->
                 <input type="radio" id="inquiry" name="inquiry" value="Inquiry">
+                <!-- <label>-->
                 <label for="inquiry">General Inquiry</label><br><br>
                 <input type="radio" id="reservation" name="reservation" value="Reservation">
                 <label for="reservation">Reservation Question</label><br><br>
@@ -90,10 +96,18 @@
                 <label for="suggestion">Website Suggestion</label><br><br>
 
                 <h3>Your Message</h3>
-                <textarea id="message" name="message" rows="10" cols="100">Please write your message here: </textarea><br>
+                <!-- <textarea>-->
+                <textarea id="message" name="message" rows="10"
+                    cols="100">Please write your message here: </textarea><br>
 
 
-                <input type="button" class="button" value="Submit">
+
+
+
+                <!-- type="checkbox"-->"Please subscribe me to the monthly newsletter"
+
+                <!-- <button type="submit">-->
+                <input type="button" class="button" id="submit" name="submit" value="Submit">
 
             </form>
             <p></p>
