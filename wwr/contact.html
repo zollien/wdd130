@@ -50,92 +50,99 @@
             </article>
         </div>
 
-
-
-
-
-
         <section class="location">
             <h2>Our Location</h2>
-            <p>Dry Oar Whitewater Rafting</p>
-            <p>Phone: 999-999-9999</p>
-            <p>Email: <a href="mailto:">info@dryoar.com</a></p>
+            <div class="container">
 
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96419.63264752862!2d-76.5648074239258!3d40.9570919098712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1734714370681!5m2!1sen!2suk"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div>
+                    <p>Dry Oar Whitewater Rafting</p>
+                    <p>Phone: 999-999-9999</p>
+                    <p>Email: <a href="mailto:">info@dryoar.com</a></p>
+                </div>
 
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96419.63264752862!2d-76.5648074239258!3d40.9570919098712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1734714370681!5m2!1sen!2suk"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
 
-
         <h2>Our Team</h2>
         <div class="employees">
-            <figure><img src="images/team-jay.png" alt=" Team Member Jay Jones image">
-                <figcaption>Jay Jones: Whitewater Specialist</figcaption>
-            </figure>
-            <figure><img src="images/team-bea.png" alt="Tema Member Bea Blue image">
-                <figcaption>Bea Blue: Team Leader</figcaption>
-            </figure>
-            <figure><img src="images/team-lee.png" alt="Team Member Lee Long image">
-                <figcaption>Lee Long: Trainer</figcaption>
-            </figure>
+            <div class="container3">
+                <div>
+                    <figure><img src="images/team-jay.png" alt=" Team Member Jay Jones image">
+                        <figcaption>Jay Jones: Whitewater Specialist</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="images/team-bea.png" alt="Tema Member Bea Blue image">
+                        <figcaption>Bea Blue: Team Leader</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="images/team-lee.png" alt="Team Member Lee Long image">
+                        <figcaption>Lee Long: Trainer</figcaption>
+                    </figure>
+                </div>
+            </div>
         </div>
-
-        <p></p>
-        <p></p>
 
 
 
 
 
         <h2>Send Us a Message</h2>
-        <h3>Your Contact Details</h3>
-        <p></p>
-        <div class="form">
-            <div>
-                <form action="/action_page.php">
-                    <!-- <label>-->
-                    <!-- type="text"-->
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"><br><br>
-                    <label for="email">Email Address:</label>
-                    <input type="text" id="email" name="email"><br><br>
-                </form>
+
+        <fieldset>
+            <h3>Your Contact Details</h3>
+            <p></p>
+
+            <form action="/action_page.php">
+
+                <!-- <label>-->
+                <!-- type="text"-->
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email"><br><br>
+
+
                 <h3>Type of Inquiry</h3>
                 <p></p>
                 <!-- form -->
-                <form action="/action_page.php">
-                    <!-- type="radio"-->
-                    <input type="radio" id="inquiry" name="inquiry" value="Inquiry">
-                    <!-- <label>-->
-                    <label for="inquiry">General Inquiry</label><br><br>
-                    <input type="radio" id="reservation" name="inquiry" value="Reservation">
-                    <label for="reservation">Reservation Question</label><br><br>
-                    <input type="radio" id="suggestion" name="inquiry" value="Suggestion">
-                    <label for="suggestion">Website Suggestion</label><br><br>
-                </form> <!--name needs to match to allow select one function-->
-            </div>
-            <div>
+
+                <!-- type="radio"-->
+                <input type="radio" id="inquiry" name="inquiry" value="Inquiry">
+                <!-- <label>-->
+                <label for="inquiry">General Inquiry</label><br><br>
+                <input type="radio" id="reservation" name="inquiry" value="Reservation">
+                <label for="reservation">Reservation Question</label><br><br>
+                <input type="radio" id="suggestion" name="inquiry" value="Suggestion">
+                <label for="suggestion">Website Suggestion</label><br><br>
+                <!--name needs to match to allow select one function-->
+
                 <h3>Your Message</h3>
                 <p>Please write your message here:</p>
-                <form action="/action_page.php">
-                    <!-- <textarea>-->
-                    <textarea id="message" name="message" rows="10" cols="100">Message:</textarea><br>
-                    <!-- type="checkbox"-->
-                    <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter.</label><br>
-                    <p></p>
 
-                    <p></p>
-                </form>
-                <form><!-- <button type="submit">-->
-                    <button type="submit" value="Submit" class="submit" id="submit" name="submit">Customer
-                        Confirmation</button>
-                </form>
-            </div>
-        </div>
+                <!-- <textarea>-->
+                <textarea id="message" name="message" rows="10" cols="100">Message:</textarea><br>
+                <!-- type="checkbox"-->
+                <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter.</label><br>
+                <p></p>
+
+                <p></p>
+
+                <!-- <button type="submit">-->
+                <button type="submit" value="Submit" class="submit" id="submit" name="submit">Customer
+                    Confirmation</button>
+            </form>
+        </fieldset>
+
     </main>
 
     <!-- Create a link to the Contact Us wireframe image in the footer of the contact.html page only.-->

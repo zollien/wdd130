@@ -29,6 +29,7 @@
     padding: var(--padding-left);
     box-sizing: border-box;
     font-family: var(--text-font);
+    box-sizing: border-box;
 }
 
 a {
@@ -282,7 +283,7 @@ iframe {
 /*contact form button*/
 .submit {
     background-color: #c3510a;
-    border: 1px;
+    border: 1px #16697A;
     color: white;
     padding: 10px 12px;
     text-align: center;
@@ -299,15 +300,7 @@ form {
     font-size: 16px;
 }
 
-.container0 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row: 2;
-    background-color: var(--section-background-color);
-    grid-gap: 10px;
-    padding: 10px;
-    margin: 10px;
-}
+
 
 .location {
     text-align: center;
@@ -379,4 +372,19 @@ td {
 .container3 img {
     width: 320px;
     height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--background-color);
+    padding: 20px;
+    margin: 20px;
+}
+
+.container>div {
+    background-color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
 }
