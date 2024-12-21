@@ -87,7 +87,7 @@ a:visited {
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #16697aa9;
+    background-color: #16697a;
     padding: 10px;
     border: 1px;
 }
@@ -173,7 +173,7 @@ h6 {
 
 .hero article {
     position: absolute;
-    top: 150px;
+    top: 175px;
     left: 50px;
     right: 50px;
     padding: var(--padding);
@@ -188,11 +188,12 @@ h6 {
     left: 0;
     right: 0;
     background-color: #ffffff56;
+
 }
 
 .hero article p {
-    color: var(--primary-color);
-    font-size: 20px;
+    color: var(--accent2-color);
+    font-size: 25px;
     text-align: justify;
     font-weight: 700;
 }
@@ -231,7 +232,6 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
-    margin: 4em 0;
     font-family: var(--heading-font);
     font-style: normal;
     font-weight: 700;
