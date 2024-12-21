@@ -73,12 +73,28 @@ nav a {
     margin: 0px;
     background-color: #82C0CC20;
     text-decoration: none;
-
 }
 
 nav a:hover {
     background-color: #82C0CC;
     font-weight: 700;
+}
+
+a:link,
+a:visited {
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #16697aa9;
+    padding: 10px;
+    border: 1px;
+}
+
+a:hover,
+a:active {
+    background-color: #C3510A60;
 }
 
 .navigation {
@@ -176,10 +192,12 @@ h6 {
 
 .hero article p {
     color: var(--primary-color);
-    font-size: 1rem;
+    font-size: 20px;
     text-align: justify;
     font-weight: 700;
 }
+
+
 
 .section {
     position: absolute;
@@ -188,11 +206,14 @@ h6 {
     font-style: normal;
 }
 
-.section history {
-    position: absolute;
-    background-color: var(--section-background-color);
-    font-family: var(--text-font);
-    font-style: normal;
+.history img {
+    width: 200px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 figure {
@@ -265,6 +286,8 @@ iframe {
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 form {
@@ -274,4 +297,36 @@ form {
 
 .location {
     text-align: center;
+}
+
+/*contact form button*/
+.submit {
+    background-color: #c3510a;
+    border: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+form {
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+}
+
+.location {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid #16697A;
+    padding: 10px;
+    margin: 50px;
 }

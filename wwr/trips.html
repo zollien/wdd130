@@ -29,7 +29,7 @@
         <div class="placement2">
             <nav>
                 <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="trips.html">Trips</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
@@ -41,12 +41,106 @@
     <main>
 
 
+        <!-- The Trips page contains contains the required content. -->
+
+        <div class="hero">
+            <img class="hero-image" src="images/rafting3_1024.jpeg" alt="Group 60 Rafting Image">
+            <h1>Trips</h1>
+            <article class="hero-text"><!--ARTICLE -->
+                <img class="hero-img" src="images/deercreek-portrait.jpeg"
+                    alt="River Portrait Image"><!--to float image put it first-->
+
+                <p class="hero">Need more information?</p>
+                <a href="contact.html" target="_blank">Contact us today!</a>
+            </article>
+        </div>
+
+        <section class="trips"><!-- grid for at least 3 trips-->
+            <h2>Our trips</h2>
+
+            <figure><img src="images/rafting37_1024.jpeg" alt="Rafting 18 image">
+                <figcaption>Roaring Creek River Run</figcaption>
+            </figure>
+            <p>Roaring Creek River Run</p>
+            <p>Level: Advanced</p>
+            <p>Length: 3km + 2km</p>
+
+            <figure><img src="images/rafting16_1024.jpeg" alt="Black Rock River Run<">
+                <figcaption>Black Rock River Run</figcaption>
+            </figure>
+            <p>Black Rock River Run</p>
+            <p>Level: Intermediate</p>
+            <p>Length: 2km + 1km</p>
+
+            <figure><img src="images/rafting60_1024.jpeg" alt="Rafting 26 image">
+                <figcaption>Calm Rock River Run</figcaption>
+            </figure>
+            <p>Calm Rock River Run</p>
+            <p>Level: Beginner</p>
+            <p>Length: 1km + 0.5km</p>
+
+        </section>
+        <!-- A table summarizing the trip information is provided -->
+        <table>
+            <tr>
+                <th>River Run</th>
+                <th>Level</th>
+                <th>Length</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Roaring Creek</td>
+                <td>Level: Advanced</td>
+                <td>Length: 3km + 2km</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Black Rock</td>
+                <td>Level: Intermediate</td>
+                <td>Length: 2km + 1km</td>
+                <td>$65</td>
+            </tr>
+            <tr>
+                <td>Roaring Creek River Run</td>
+                <td>Level: Beginner</td>
+                <td>Length: 1km + 0.5km</td>
+                <td>$50</td>
+            </tr>
+        </table>
+
+        <form action="/action_page.php">
+            <h2>Booking Form</h2>
+            <fieldset>
+                <legend>Please complete:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="date">Booking Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="date">Group Size:</label>
+                <input type="email" id="email" name="email"><br><br>
 
 
-
-
-
-
+                <h3>Payment Method</h3>
+                <input type="radio" id="card" name="payment" value="Card">
+                <label for="card">Card</label><br><br>
+                <input type="radio" id="paypal" name="payment" value="PayPal">
+                <label for="paypal">PayPal</label><br><br>
+                <input type="radio" id="invoice" name="payment" value="Invoice">
+                <label for="invoice">Invoice</label><br><br>
+                <h3>Membership</h3><!-- type="checkbox"-->
+                <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                <label for="membership">Please sign me up for membership offers.</label><br>
+                <p></p>
+                <p></p>
+                <!-- <button type="submit">-->
+                <button type="submit" value="Submit" class="submit" id="submit" name="submit">Confirmation
+                    Booking</button>
+            </fieldset>
+        </form>
 
     </main>
     <footer>
