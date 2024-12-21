@@ -85,49 +85,57 @@
 
         <p></p>
         <p></p>
+
+
+
+
+
         <h2>Send Us a Message</h2>
         <h3>Your Contact Details</h3>
         <p></p>
-        <form action="/action_page.php">
-            <!-- <label>-->
-            <!-- type="text"-->
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email Address:</label>
-            <input type="text" id="email" name="email"><br><br>
-        </form>
+        <div class="form">
+            <div>
+                <form action="/action_page.php">
+                    <!-- <label>-->
+                    <!-- type="text"-->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email Address:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                </form>
+                <h3>Type of Inquiry</h3>
+                <p></p>
+                <!-- form -->
+                <form action="/action_page.php">
+                    <!-- type="radio"-->
+                    <input type="radio" id="inquiry" name="inquiry" value="Inquiry">
+                    <!-- <label>-->
+                    <label for="inquiry">General Inquiry</label><br><br>
+                    <input type="radio" id="reservation" name="inquiry" value="Reservation">
+                    <label for="reservation">Reservation Question</label><br><br>
+                    <input type="radio" id="suggestion" name="inquiry" value="Suggestion">
+                    <label for="suggestion">Website Suggestion</label><br><br>
+                </form> <!--name needs to match to allow select one function-->
+            </div>
+            <div>
+                <h3>Your Message</h3>
+                <p>Please write your message here:</p>
+                <form action="/action_page.php">
+                    <!-- <textarea>-->
+                    <textarea id="message" name="message" rows="10" cols="100">Message:</textarea><br>
+                    <!-- type="checkbox"-->
+                    <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter.</label><br>
+                    <p></p>
 
-        <h3>Type of Inquiry</h3>
-        <p></p>
-        <!-- form -->
-        <form action="/action_page.php">
-            <!-- type="radio"-->
-            <input type="radio" id="inquiry" name="inquiry" value="Inquiry">
-            <!-- <label>-->
-            <label for="inquiry">General Inquiry</label><br><br>
-            <input type="radio" id="reservation" name="inquiry" value="Reservation">
-            <label for="reservation">Reservation Question</label><br><br>
-            <input type="radio" id="suggestion" name="inquiry" value="Suggestion">
-            <label for="suggestion">Website Suggestion</label><br><br>
-        </form> <!--name needs to match to allow select one function-->
-
-        <h3>Your Message</h3>
-        <p>Please write your message here:</p>
-        <form action="/action_page.php">
-            <!-- <textarea>-->
-            <textarea id="message" name="message" rows="10" cols="100">Message:</textarea><br>
-            <!-- type="checkbox"-->
-            <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-            <label for="subscribe">Please subscribe me to the monthly newsletter.</label><br>
-            <p></p>
-            <!-- <button type="submit">-->
-            <button type="submit" value="Submit" class="submit" id="submit" name="submit">Customer Confirmation</button>
-
-
-            <p></p>
-        </form>
-        <p></p>
-        <p></p>
+                    <p></p>
+                </form>
+                <form><!-- <button type="submit">-->
+                    <button type="submit" value="Submit" class="submit" id="submit" name="submit">Customer
+                        Confirmation</button>
+                </form>
+            </div>
+        </div>
     </main>
 
     <!-- Create a link to the Contact Us wireframe image in the footer of the contact.html page only.-->
