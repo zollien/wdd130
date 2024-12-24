@@ -1,0 +1,162 @@
+<!-- wwr folder w3 task-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!--Head Complete-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips - Dry Oar Whitewater Rafting</title>
+    <meta name="description" content="Trips - Dry Oar Rafting">
+    <meta name="author" content="Zollien Dove">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header><!--header navigation-->
+        <!--The header contains a working logo image and a navigation element.-->
+        <!--The nav element contains four (4) links to the four pages of the project. They will not be working yet.-->
+
+
+
+        <!--navigation grid in div-->
+        <div class="placement1"><img class="img" src="images/dryoarlogo.png" alt="Dry Oar Whitewater Rafting Logo"
+                width="200">
+        </div>
+        <div class="placement2">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+
+
+        <!-- The Trips page contains contains the required content. -->
+
+        <div class="hero">
+            <img class="hero-image" src="images/rafting3_1024.jpeg" alt="Group 60 Rafting Image">
+            <h1>Trips</h1>
+            <article class="hero-text"><!--ARTICLE -->
+                <img class="hero-img" src="images/deercreek-portrait.jpeg"
+                    alt="River Portrait Image"><!--to float image put it first-->
+
+                <p class="hero">Need more information?</p>
+                <a href="contact.html" target="_blank">Contact us today!</a>
+            </article>
+        </div>
+
+        <section class="trips"><!-- grid for at least 3 trips-->
+            <h2>Our trips</h2>
+            <div class="container3">
+                <div>
+                    <figure><img src="images/rafting37_1024.jpeg" alt="Rafting 18 image">
+                        <figcaption>Roaring Creek River Run</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="images/rafting16_1024.jpeg" alt="Black Rock River Run<">
+                        <figcaption>Black Rock River Run</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="images/rafting60_1024.jpeg" alt="Rafting 26 image">
+                        <figcaption>Calm Rock River Run</figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </section>
+        <!-- A table summarizing the trip information is provided -->
+        <table>
+            <tr>
+                <th>River Run</th>
+                <th>Level</th>
+                <th>Length</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Roaring Creek</td>
+                <td>Level: Advanced</td>
+                <td>Length: 3km + 2km</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Black Rock</td>
+                <td>Level: Intermediate</td>
+                <td>Length: 2km + 1km</td>
+                <td>$65</td>
+            </tr>
+            <tr>
+                <td>Roaring Creek River Run</td>
+                <td>Level: Beginner</td>
+                <td>Length: 1km + 0.5km</td>
+                <td>$50</td>
+            </tr>
+        </table>
+
+        <h2>Booking Form</h2>
+
+
+        <form action="/action_page.php">
+
+            <fieldset>
+                <h3>Booking Details</h3>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="date">Booking Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="groupsize">Group Size:</label>
+                <input type="number" id="groupsize" name="groupsize"><br><br>
+
+
+                <h3>Payment Method</h3>
+                <input type="radio" id="card" name="payment" value="Card">
+                <label for="card">Card</label><br><br>
+                <input type="radio" id="paypal" name="payment" value="PayPal">
+                <label for="paypal">PayPal</label><br><br>
+                <input type="radio" id="invoice" name="payment" value="Invoice">
+                <label for="invoice">Invoice</label><br><br>
+                <h3>Membership</h3><!-- type="checkbox"-->
+                <input type="checkbox" id="membership" name="membership" value="Membership">
+                <label for="membership">Please sign me up for membership offers.</label><br>
+                <p></p>
+                <p></p>
+                <!-- <button type="submit">-->
+                <button type="submit" value="Submit" class="submit" id="submit" name="submit">Confirmation
+                    Booking</button>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <div>
+            <!--CSS: The image links for the social media icons do not have text-decoration.Do have links-->
+            <p>&copy; 2024 | Dry Oar Whitewater Rafting | Zollien Dove</p>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/icon_instagram_logo.svg"
+                    alt="Instagram instagram_icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/icon_facebook_logo.svg"
+                    alt="Facebook facebook_icon"></a>
+            <a href="https://x.com" target="_blank"><img src="images/icon_twitter_x_logo.svg"
+                    alt="X Twitter xtwitter_icon"></a><!--target=blank opens in new browser-->
+        </div>
+    </footer>
+</body>
+
+
+</html>

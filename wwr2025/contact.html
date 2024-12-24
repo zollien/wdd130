@@ -1,0 +1,166 @@
+<!-- wwr folder w3 task-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!--Head Complete-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dry Oar Whitewater Rafting</title>
+    <meta name="description" content="Contact Us - Dry Oar Rafting">
+    <meta name="author" content="Zollien Dove">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header><!--header navigation-->
+        <!--The header contains a working logo image and a navigation element.-->
+        <!--The nav element contains four (4) links to the four pages of the project. They will not be working yet.-->
+
+        <!--navigation grid in div-->
+        <div class="placement1"><img class="img" src="images/dryoarlogo.png" alt="Dry Oar Whitewater Rafting Logo"
+                width="200">
+        </div>
+        <div class="placement2">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+
+        <div class="hero">
+            <img class="hero-image" src="images/elves-chasm-landscape.jpeg" alt="Group 60 Rafting Image">
+            <h1>Contact Us</h1>
+            <article class="hero-text"><!--ARTICLE -->
+                <img class="hero-img" src="images/rafting31_600.jpeg"
+                    alt="Safety First image"><!--to float image put it first-->
+
+                <p class="hero">Find out more about Dry Oar Whitewater Rafting</p>
+                <a href="about.html" target="_blank">See more about us!</a>
+            </article>
+        </div>
+
+        <section class="location">
+            <h2>Our Location</h2>
+            <div class="container">
+
+                <div>
+                    <p>Dry Oar Whitewater Rafting</p>
+                    <p>Phone: 999-999-9999</p>
+                    <p>Email: <a href="mailto:">info@dryoar.com</a></p>
+                </div>
+
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96419.63264752862!2d-76.5648074239258!3d40.9570919098712!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1734714370681!5m2!1sen!2suk"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <h2>Our Team</h2>
+        <div class="employees">
+            <div class="container3">
+                <div>
+                    <figure><img src="images/team-jay.png" alt=" Team Member Jay Jones image">
+                        <figcaption>Jay Jones: Whitewater Specialist</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="images/team-bea.png" alt="Tema Member Bea Blue image">
+                        <figcaption>Bea Blue: Team Leader</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure><img src="images/team-lee.png" alt="Team Member Lee Long image">
+                        <figcaption>Lee Long: Trainer</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <h2>Send Us a Message</h2>
+
+        <fieldset>
+            <h3>Your Contact Details</h3>
+            <p></p>
+
+            <form action="/action_page.php">
+
+                <!-- <label>-->
+                <!-- type="text"-->
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email"><br><br>
+
+
+                <h3>Type of Inquiry</h3>
+                <p></p>
+                <!-- form -->
+
+                <!-- type="radio"-->
+                <input type="radio" id="inquiry" name="inquiry" value="Inquiry">
+                <!-- <label>-->
+                <label for="inquiry">General Inquiry</label><br><br>
+                <input type="radio" id="reservation" name="inquiry" value="Reservation">
+                <label for="reservation">Reservation Question</label><br><br>
+                <input type="radio" id="suggestion" name="inquiry" value="Suggestion">
+                <label for="suggestion">Website Suggestion</label><br><br>
+                <!--name needs to match to allow select one function-->
+
+                <h3>Your Message</h3>
+                <p>Please write your message here:</p>
+
+                <!-- <textarea>-->
+                <textarea id="message" name="message" rows="10" cols="100">Message:</textarea><br>
+                <!-- type="checkbox"-->
+                <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter.</label><br>
+                <p></p>
+
+                <p></p>
+
+                <!-- <button type="submit">-->
+                <button type="submit" value="Submit" class="submit" id="submit" name="submit">Customer
+                    Confirmation</button>
+            </form>
+        </fieldset>
+
+    </main>
+
+    <!-- Create a link to the Contact Us wireframe image in the footer of the contact.html page only.-->
+    <footer>
+        <div>
+            <!--CSS: The image links for the social media icons do not have text-decoration.Do have links-->
+            <p>&copy; 2024 | Dry Oar Whitewater Rafting | Zollien Dove</p>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/icon_instagram_logo.svg"
+                    alt="Instagram instagram_icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/icon_facebook_logo.svg"
+                    alt="Facebook facebook_icon"></a>
+            <a href="https://x.com" target="_blank"><img src="images/icon_twitter_x_logo.svg"
+                    alt="X Twitter xtwitter_icon"></a><!--target=blank opens in new browser-->
+        </div>
+    </footer>
+</body>
+
+
+</html>
