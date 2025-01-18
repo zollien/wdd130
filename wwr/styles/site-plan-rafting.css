@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url(href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 
 :root {
@@ -24,7 +24,7 @@ Fonts are separated by a & */
     /* paragraph text on a white background */
     --paragraph-color-on-color: #042e37;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #82C0CC;
+    --paragraph-background-color: #82C0CC80;
     --nav-link-color: #042e37;
     --nav-background-color: #82C0CC10;
     --nav-hover-link-color: #ffffff;
@@ -103,7 +103,26 @@ p ul li a {
 .colors td {
     width: 25%;
     height: 3em;
-    background-color: #D1620010;
+}
+
+.colors td.r1 {
+    background-color: #042E37;
+    color: #ffffff;
+}
+
+.colors td.r2 {
+    background-color: #16697A;
+    color: #ffffff;
+}
+
+.colors td.r3 {
+    background-color: #D16200;
+    color: #ffffff;
+}
+
+.colors td.r4 {
+    background-color: #82C0CC;
+    color: #000000;
 }
 
 .primary {
