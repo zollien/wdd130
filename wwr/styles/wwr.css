@@ -58,6 +58,7 @@ header {
     margin: 0 auto;
     background-color: var(--header-background-color);
 }
+
 main {
     max-width: 1100px;
     margin: 0 auto;
@@ -191,7 +192,7 @@ footer {
     width: 100%;
     background-color: var(--secondary-color);
     color: #ffffff;
-    padding: 2rem;
+    padding: 0.5em;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
@@ -279,6 +280,9 @@ footer {
 .card-img {
     width: 350px;
     height: auto;
+    border: 5px solid #82C0CC;
+    border-color: #C3510A;
+    box-sizing: border-box;
 }
 
 .rivers-card img,
@@ -292,6 +296,7 @@ footer {
     width: 80px;
     height: auto;
 }
+
 .icon {
     width: 80px;
     height: auto;
@@ -306,14 +311,15 @@ footer {
     padding: 10px;
     margin: 10px;
 }
+
 .mountains {
     width: auto;
     height: 725px;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* Body Div*/
-#content{
+#content {
     max-width: 1600px;
 }
 
@@ -424,6 +430,7 @@ td {
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
+    border-radius: 25%;
 }
 
 form {
@@ -443,6 +450,7 @@ form {
     cursor: pointer;
     font-weight: 700;
     font-size: 30px;
+    border-radius: 30%;
 }
 
 /*Employee / Team Section*/
