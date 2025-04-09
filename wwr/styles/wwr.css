@@ -1,0 +1,41 @@
+/* Googlge Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    /* Color Palette */
+    --primary-color: #042e37;
+    --secondary-color: #16697A;
+    --accent1-color: #cd660e;
+    --accent2-color: #82C0CC;
+    /* Fonts */
+    --heading-font: "Acme", sans-serif;
+    --paragraph-font: "Roboto", sans-serif;
+    /* Styles */
+    --headline-color-on-white: #cd660e;
+    --headline-color-on-color: #042e37;
+    --paragraph-color-on-white: #042e37;
+    --paragraph-color-on-color: #042e37;
+    --paragraph-background-color: #82C0CC80;
+    --nav-link-color: #042e37;
+    --nav-background-color: #82C0CC10;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #cd660e;
+    --header-background-color: #82C0CC80;
+
+    --navigation-background-color: #ffffff;
+
+    --heading-text-color: #16697A;
+    --heading-color: #C3510A;
+    --heading-alignment: center;
+    --padding: 1rem #ffffff;
+    --padding-left: 5px;
+    --margin-left: 0px;
+    --border: 1px solid #C3510A;
+
+    --section-background-color: #C3510A20;
+    --background-color: #82C0CC30;
+
+    --text-align: center;
+    --text-color: #042e37;
+    --text-font: "Roboto", sans-serif;
+}

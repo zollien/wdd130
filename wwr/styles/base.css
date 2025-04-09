@@ -1,0 +1,355 @@
+/* Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    /* Color Palette */
+    --primary-color: #042e37;
+    --secondary-color: #16697A;
+    --accent1-color: #cd660e;
+    --accent2-color: #82C0CC;
+
+    /* Fonts */
+    --heading-font: "Acme", sans-serif;
+    --paragraph-font: "Roboto", sans-serif;
+
+    /* Standardising color theme */
+    --headline-color-on-white: #cd660e;
+    /* headlines on a white background */
+    --headline-color-on-color: #042e37;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #042e37;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #042e37;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #82C0CC80;
+    --nav-link-color: #042e37;
+    --nav-background-color: #82C0CC10;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #cd660e;
+    --header-background-color: #82C0CC80;
+
+    --navigation-background-color: #ffffff;
+    --heading-text-color: #16697A;
+    --heading-color: #C3510A;
+    --heading-alignment: center;
+    --padding: 1rem #ffffff;
+    --padding-left: 5px;
+    --margin-left: 0px;
+    --border: 1px solid #C3510A;
+    --section-background-color: #C3510A20;
+    --background-color: #82C0CC30;
+    --text-align: center;
+    --text-color: #271712;
+    --text-font: "Roboto", sans-serif;
+}
+
+/*universal*/
+* {
+    margin: var(--margin-left);
+    padding: var(--padding-left);
+    box-sizing: border-box;
+    font-family: var(--text-font);
+}
+
+/* Siteplan CSS */
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 18px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: vertical center;*/
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    gap: 20px;
+    padding: 10px;
+    margin: 1rem auto;
+    border-bottom: solid 1px var(--accent1-color);
+    max-width: 1200px;
+}
+
+
+.header logo {
+    max-width: 40px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    padding: var(--padding);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #271712;
+    font-family: var(--paragraph-font);
+    font-weight: 700;
+    display: block;
+    padding: 10px 10px;
+    margin: 0px;
+    background-color: #82C0CC20;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #82C0CC;
+    font-weight: 700;
+}
+
+
+/*
+header>h1,
+header>h2 {
+    color: var(--headline-color-on-color);
+} */
+
+/* Hero Div on homepage*/
+/* */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero article img {
+    float: right;
+    margin: 10px;
+    border: 4px solid white;
+    width: 350px;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    right: 50px;
+    padding: var(--padding);
+    font-family: var(--text-font);
+    font-style: normal;
+    background-color: #ffffff56;
+
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff56;
+
+}
+
+.hero article p {
+    color: var(--accent2-color);
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+}
+
+
+
+p ul li a {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+
+    p.colored {
+        background-color: var(--paragraph-background-color);
+        color: var(--paragraph-color-on-color);
+    }
+}
+
+/*Colours class for table etc*/
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+
+    .colors th {
+        background-color: #82C0CC;
+        width: 800px;
+    }
+
+    .colors td {
+        width: 25%;
+        height: 3em;
+    }
+
+    .colors td.r1 {
+        background-color: #042E37;
+        color: #ffffff;
+    }
+
+    .colors td.r2 {
+        background-color: #16697A;
+        color: #ffffff;
+    }
+
+    .colors td.r3 {
+        background-color: #D16200;
+        color: #ffffff;
+    }
+
+    .colors td.r4 {
+        background-color: #82C0CC;
+        color: #000000;
+    }
+}
+
+/*Background Colours*/
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+
+
+
+nav {
+    /*background-color: var(--nav-background-color);*/
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: var(--paragraph-font);
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.sitemap {
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas: ". . home home . ."
+        ". . . top . ."
+        ". left left right right ."
+        "page2 page2 . . page3 page3";
+}
+
+.sitemap>div {
+    text-align: center;
+}
+
+.sm-home {
+    grid-area: home;
+    background-color: #ccc;
+    line-height: 3em;
+}
+
+.sm-page2 {
+    grid-area: page2;
+    background-color: #ccc;
+    line-height: 3em;
+}
+
+.sm-page3 {
+    grid-area: page3;
+    background-color: #ccc;
+    line-height: 3em;
+}
+
+.top {
+    grid-area: top;
+    border-left: 1px solid;
+}
+
+.left {
+    grid-area: left;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.right {
+    grid-area: right;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+/*Added*/
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    color: var(--headline-color-on-white)
+}
+
+img {
+    width: 900px;
+}
+
+/* img .blur {
+    opacity: .25;
+    filter: blur(25px);
+} */

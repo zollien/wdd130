@@ -15,30 +15,19 @@ Fonts are separated by a & */
     --heading-font: "Acme", sans-serif;
     --paragraph-font: "Roboto", sans-serif;
 
-    /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #cd660e;
-    /* headlines on a white background */
     --headline-color-on-color: #042e37;
-    /* headlines on a colored background */
     --paragraph-color-on-white: #042e37;
-    /* paragraph text on a white background */
     --paragraph-color-on-color: #042e37;
-    /* paragraph text on a colored background */
     --paragraph-background-color: #82C0CC80;
-    --nav-link-color: #042e37;
-    --nav-background-color: #82C0CC10;
-    --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #cd660e;
-    ;
+
 }
 
-
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
     max-width: 960px;
     margin: 0 auto;
-    padding: 4em;
+    padding: 1em;
     font-size: 18px;
     text-align: center;
 }
