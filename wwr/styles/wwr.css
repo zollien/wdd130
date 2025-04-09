@@ -20,7 +20,7 @@
     --nav-background-color: #82C0CC10;
     --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: #cd660e;
-    --header-background-color: #82C0CC80;
+    --header-background-color: #82C0CC10;
 
     --navigation-background-color: #ffffff;
 
@@ -33,7 +33,7 @@
     --border: 1px solid #C3510A;
 
     --section-background-color: #C3510A20;
-    --background-color: #82C0CC30;
+    --background-color: #82c0cc02;
 
     --text-align: center;
     --text-color: #042e37;
@@ -53,7 +53,11 @@ a {
     text-decoration: none;
 }
 
-header,
+header {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: var(--header-background-color);
+}
 main {
     max-width: 1100px;
     margin: 0 auto;
@@ -61,6 +65,7 @@ main {
 
 body {
     font-family: var(--paragraph-font);
+    background-color: var(--background-color);
 }
 
 a {
@@ -258,6 +263,7 @@ footer {
     background-color: var(--section-background-color);
     font-family: var(--text-font);
     font-style: normal;
+    text-align: center;
 }
 
 .history img {
@@ -281,9 +287,34 @@ footer {
     height: auto;
 }
 
-.icon {
-    width: 50px;
+
+.logo {
+    width: 80px;
     height: auto;
+}
+.icon {
+    width: 80px;
+    height: auto;
+}
+
+/*Divs with id="background"*/
+#background {
+    background-color: var(--background-color);
+    font-family: var(--text-font);
+    font-style: normal;
+    color: var(--text-color);
+    padding: 10px;
+    margin: 10px;
+}
+.mountains {
+    width: auto;
+    height: 725px;
+    padding: 10px;
+}
+
+/* Body Div*/
+#content{
+    max-width: 1600px;
 }
 
 /*Containers*/
