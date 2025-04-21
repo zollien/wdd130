@@ -1,52 +1,41 @@
-/*
-colors
-#271712
-#16697A
-#C3510A
-#82C0CC
-*/
-
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
+/* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    /* change the values below to your colors from your palette */
+    /* Colors*/
     --primary-color: #032026;
     --secondary-color: #16697A;
-    --accent1-color:  #C3510A;
+    --accent1-color: #C3510A;
     --accent2-color: #82C0CC;
 
-    /* change the values below to your chosen font(s) */
-    
+    /* Fonts */
     --heading-font: "Acme", sans-serif;
     --paragraph-font: "Roboto", sans-serif;
 
-    /* these colors below should be chosen from among your palette colors above */
+    /* Styles */
     --headline-color-on-white: var(--accent1-color);
-    /* headlines on a white background */
     --headline-color-on-color: #ffffff;
-    /* headlines on a colored background */
     --paragraph-color-on-white: var(--primary-color);
-    /* paragraph text on a white background */
     --paragraph-color-on-color: #ffffff;
-    /* paragraph text on a colored background */
-    --paragraph-background-color: var(--primary-color);
-    --nav-link-color: var(--primary-color);
-    --nav-background-color: var(--accent2-color);
-    --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: var(--secondary-color);
+    --paragraph-background-color: var(--accent1-color);
+
+    --nav-link-color: var(--accent1-color);
+    --nav-background-color: #ffffff;
+    --nav-hover-link-color: ;
+    --nav-hover-background-color: var(--accent1-color);
+    --header-background-color: var(--secondary-color);
+    
 
     --accent3-color: #82C0CC30;
     --background-color: #82C0CC10;
-
-
     
+    --text-align: center;
+    --text-color: var(--primary-color);
+    --text-font: "Roboto", sans-serif;
 }
 
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+/*  Updated from original provided for site plan */
 
 body {
     max-width: 960px;
@@ -59,7 +48,7 @@ body {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 300px;
+    
 }
 
 h1,
@@ -86,7 +75,7 @@ header {
     padding: 1em;
     text-align: center;
     color: var(--headline-color-on-color);
-    background-color: var(--paragraph-background-color);
+    background-color: var(--primary-color);
 }
 
 header>h1,
@@ -100,9 +89,10 @@ p {
     padding: 1em;
 }
 
-.center{
+.center {
     margin: auto;
 }
+
 .colors {
     width: 100%;
     min-width: 350px;
@@ -225,23 +215,44 @@ nav a:hover {
     border-top: 1px solid;
     border-right: 1px solid;
 }
+
 footer {
     padding: 1em;
     margin: 1em;
     text-align: center;
-    color: var(--headline-color-on-color);
-    background-color: var(--paragraph-background-color);
+    
+    padding: 0.5em;
+    
 }
+
+/*footer with socials*/
+footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 0.5em;
+    font-family: var(--heading-font);
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+
 .footer-p {
     color: var(--headline-color-on-color);
 }
+
 a {
     color: var(--accent1-color);
 }
+
 ul {
     font: var(--pargraph-font);
     list-style-type: circle;
     list-style-position: inside;
     align-items: center;
+}
 
+.button {
+    text-decoration: none;
 }
