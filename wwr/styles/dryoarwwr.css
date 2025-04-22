@@ -21,21 +21,36 @@
 
     --nav-link-color: var(--accent1-color);
     --nav-background-color: #ffffff;
-    --nav-hover-link-color: ;
+    --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: var(--accent1-color);
     --header-background-color: var(--secondary-color);
-    
+
 
     --accent3-color: #82C0CC30;
-    --background-color: #82C0CC10;
-    
+    --background-color: #82C0CC08;
+    --accent4-color: #C3510A20;
+
     --text-align: center;
     --text-color: var(--primary-color);
     --text-font: "Roboto", sans-serif;
+
+    --border: 1px solid var(--accent2-color);
+
+    --navigation-background-color: #ffffff;
+
+
 }
 
+/*universal*/
+* {
+    margin: var(--margin-left);
+    padding: var(--padding-left);
 
-/*  Updated from original provided for site plan */
+    font-family: var(--text-font);
+
+}
+
+/*Main Styling*/
 
 body {
     max-width: 960px;
@@ -43,12 +58,18 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
+    background-color: var(--background-color);
+    font-family: var(--paragraph-font);
 }
 
 img {
     display: block;
     margin: 0 auto;
-    
+
+}
+
+.card-img {
+    width: 300px;
 }
 
 h1,
@@ -65,17 +86,20 @@ h2 {
     text-align: center;
 }
 
+/*added hr - orange*/
 hr {
     height: 3px;
     margin: 35px 0;
     background: var(--accent1-color);
 }
 
+/*Header & Navigation*/
 header {
     padding: 1em;
     text-align: center;
     color: var(--headline-color-on-color);
     background-color: var(--primary-color);
+    max-width: 1100px;
 }
 
 header>h1,
@@ -153,6 +177,7 @@ nav a {
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
+
 }
 
 nav a:link,
@@ -220,14 +245,14 @@ footer {
     padding: 1em;
     margin: 1em;
     text-align: center;
-    
+
     padding: 0.5em;
-    
+
 }
 
-/*footer with socials*/
+/*footer with socials - ma-width changed to be the same as header*/
 footer {
-    width: 100%;
+    max-width: 1100px;
     background-color: var(--primary-color);
     color: #ffffff;
     padding: 0.5em;
@@ -235,6 +260,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     margin: 0 auto;
+    border: 1em;
 }
 
 
@@ -244,7 +270,9 @@ footer {
 
 a {
     color: var(--accent1-color);
+    text-decoration: none;
 }
+
 
 ul {
     font: var(--pargraph-font);
@@ -253,6 +281,90 @@ ul {
     align-items: center;
 }
 
-.button {
+.button,
+.join {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border: 1px var(--primary-color);
+    color: #ffffff;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 250%;
+}
+
+.join {
     text-decoration: none;
 }
+
+#content {
+    max-width: 1600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo,
+.icon {
+    width: 80px;
+}
+
+/*Divs with id="background"*/
+#background {
+    background-color: var(--accent3-color);
+    font-family: var(--text-font);
+    font-style: normal;
+    color: var(--text-color);
+    padding: 10px;
+    margin: 10px;
+    height: 725px;
+    width: auto;
+}
+
+.mountains {
+
+    height: 725px;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.hero {
+    text-align: center;
+    max-width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    text-align: center;
+}
+
+.image {
+    max-width: 960px;
+}
+
+.message {
+    background-color: var(--accent4-color);
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+
+.hero-image {
+    max-width: 1100px;
+    align-items: center;
+}
+
+
+
+/* use to check layout and structure of css
+* {
+    border:2px solid #4682b4;
+} */
+
+/* check teh max-width in the hero and hero-image*/
